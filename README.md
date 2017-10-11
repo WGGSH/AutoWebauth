@@ -1,0 +1,2 @@
+# AutoWebauth
+RitsumeikanのWebauthを自動的に再接続するプログラム
