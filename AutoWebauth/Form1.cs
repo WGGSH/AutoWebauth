@@ -16,5 +16,15 @@ namespace AutoWebauth
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.notifyIcon1.Icon= SystemIcons.Application;
+        }
+
+        private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
